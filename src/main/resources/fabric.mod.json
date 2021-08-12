@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "magictest",
+  "version": "${version}",
+  "name": "Test Magic",
+  "description": "Mod that add unique magic in minecraft",
+  "authors": [
+    "KrazyPotatto"
+  ],
+  "contributors": [],
+  "contact": {
+    "sources": "https://github.com/KrazyPotatto/magic-mod"
+  },
+  "license": "MIT",
+  "icon": "assets/magictest/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "me.kpotatto.magic.Magic"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [
+    "magictest.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.6",
+    "fabric": "*"
+  }
+}
